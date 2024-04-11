@@ -7,8 +7,15 @@
 /* #005b96 == #03396c */
 /* rgb(219, 209, 209) == #03396c */
 body{
+  position: relative;
+  margin: 0;
   background-color: #e8f1f5;
   overflow-x: hidden;
+  min-height: 100%;
+  padding-bottom: 150px;
+}
+html{
+  height: 100%;
 }
 .heading{
   font-size: 30px;
@@ -79,8 +86,10 @@ body{
 footer{
   width: 100vw;
   padding: 30px;
-  /* position: absolute;
-  bottom: 0px; */
+  position: absolute;
+  bottom: 0px;
+  right: 0;
+  left:0;
   flex-wrap: wrap;
   background-color: #005b96;
   color: white;
@@ -115,5 +124,8 @@ footer div ion-icon:hover{
     footer div{
       display: flex;
       justify-content: space-around;
+    }
+    body{
+      padding-bottom: 250px;
     }
 }
