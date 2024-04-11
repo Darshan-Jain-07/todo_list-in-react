@@ -1,10 +1,11 @@
 *{
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
 }
 body{
   background-color: rgb(219, 209, 209);
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 .heading{
   font-size: 30px;
