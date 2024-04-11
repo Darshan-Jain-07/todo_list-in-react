@@ -12,11 +12,12 @@ body{
   background-color: rgb(19, 16, 56);
   color: rgb(219, 209, 209);
   padding: 25px;
+  width: 100vw;
 }
 .EnterListItem{
   width: 80vw;
   height: 55px;
-  font-size: 35px;
+  font-size: 25px;
   margin: 0px auto;
 }
 .parentContainer{
