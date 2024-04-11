@@ -3,15 +3,18 @@
   padding: 0px;
   box-sizing: border-box;
 }
+/* bg rgb(219, 209, 209) == #e8f1f5 */
+/* #005b96 == #03396c */
+/* rgb(219, 209, 209) == #03396c */
 body{
-  background-color: rgb(219, 209, 209);
-  /* overflow-x: hidden; */
+  background-color: #e8f1f5;
+  overflow-x: hidden;
 }
 .heading{
   font-size: 30px;
   text-align: center;
-  background-color: rgb(19, 16, 56);
-  color: rgb(219, 209, 209);
+  background-color: #005b96;
+  color: white;
   padding: 25px;
   width: 100vw;
 }
@@ -45,19 +48,21 @@ body{
 }
 .listItem{
   display: flex;
+  justify-content: space-between;
   font-size: 20px;
-  background-color: rgb(19, 16, 56);
+  background-color: #005b96;
   border: 1px solid black;
   border-radius: 5px;
   padding: 3px;
   color: white;
+  margin-bottom:5px;
 }
 .listItem ion-icon{
   /* position: absolute; */
   /* right: 16vw; */
   font-size: 20px;
   color: black;
-  margin-right: 15px;
+  margin-right: 3px;
   background-color: rgb(219, 209, 209);
   cursor: pointer;
   padding: 3px;
@@ -77,7 +82,7 @@ footer{
   /* position: absolute;
   bottom: 0px; */
   flex-wrap: wrap;
-  background-color: rgb(19, 16, 56);
+  background-color: #005b96;
   color: white;
   margin-top: 25vh;
   display: flex;
@@ -99,7 +104,7 @@ footer div ion-icon{
   transition: 500ms;
 }
 footer div ion-icon:hover{
-  color: rgb(19, 16, 56);
+  color: #005b96;
   background-color: white;
 }
 @media (max-width: 992px) {
