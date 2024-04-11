@@ -1,0 +1,112 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background-color: rgb(219, 209, 209);
+  overflow-x: hidden;
+}
+.heading{
+  font-size: 30px;
+  text-align: center;
+  background-color: rgb(19, 16, 56);
+  color: rgb(219, 209, 209);
+  padding: 25px;
+}
+.EnterListItem{
+  width: 80vw;
+  height: 55px;
+  font-size: 35px;
+  margin: 0px auto;
+}
+.parentContainer{
+  margin: 15px auto;
+  /* background-color: blue; */
+  width: 90vw;
+  display: flex;
+}
+.addIcon{
+  font-size: 35px;
+  width: 10vw;
+  height: 58px;
+  cursor: pointer;
+}
+.displayListContainer{
+  /* height: 50vh; */
+  /* overflow-y: auto; */
+  width: 100vw;
+  text-align: center;
+}
+.list{
+  width: 70vw;
+  margin: auto;
+}
+.listItem{
+  display: flex;
+  font-size: 20px;
+  background-color: rgb(19, 16, 56);
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 3px;
+  color: white;
+}
+.listItem ion-icon{
+  /* position: absolute; */
+  /* right: 16vw; */
+  font-size: 20px;
+  color: black;
+  margin-right: 15px;
+  background-color: rgb(219, 209, 209);
+  cursor: pointer;
+  padding: 3px;
+  transition: 500ms;
+}
+.listItem ion-icon:hover{
+  background-color: red;
+  color: white;
+}
+.listItem li{
+  display: inline;
+}
+
+footer{
+  width: 100vw;
+  padding: 30px;
+  /* position: absolute;
+  bottom: 0px; */
+  flex-wrap: wrap;
+  background-color: rgb(19, 16, 56);
+  color: white;
+  margin-top: 25vh;
+  display: flex;
+  justify-content: space-around;
+}
+footer p{
+  font-size: 30px;
+  text-align: center;
+}
+
+footer div ion-icon{
+  /* display: flex; */
+  /* flex-direction: row; */
+  width: 50px;
+  padding: 7px;
+  border-radius: 5px;
+  font-size: 35px;
+  cursor: pointer;
+  transition: 500ms;
+}
+footer div ion-icon:hover{
+  color: rgb(19, 16, 56);
+  background-color: white;
+}
+@media (max-width: 992px) {
+    footer{
+      flex-direction: column;
+      gap: 10px;
+    }
+    footer div{
+      display: flex;
+      justify-content: space-around;
+    }
+}
